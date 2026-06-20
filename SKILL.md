@@ -22,6 +22,19 @@ Apply these defaults unless the user explicitly requests a different style:
 - Keep UI and product text short, specific, and easy to scan.
 - Use Bulgarian numeric and punctuation conventions such as decimal comma, spaced thousands, and `№`.
 
+Source discipline for this skill:
+
+- Treat IBL BAS, BERON, and the Language Help Desk as primary sources for claims about norm.
+- Treat UX-writing, localization, and brevity guidance as editorial or product practice unless a normative source is cited.
+- Do not present the repository's dash preferences or UI-copy preferences as universal academic rules.
+- `corpusbdr.info` may be useful as a linguistic research corpus, but it is not the primary normative source for standard Bulgarian orthography or punctuation.
+- Anchor normative claims, when needed, to these starting points:
+  - `https://ibl.bas.bg/ezikovi-spravki/`
+  - `https://ibl.bas.bg/ezikovispravki/vaprosi/kavichki-8`
+  - `https://ibl.bas.bg/rbe/lang/bg/запетая/`
+  - `https://ibl.bas.bg/ezikovispravki/vaprosi/chislitelni-imena-sheyset-i-shestdeset-7-klas-7-i-klas-vii-klas-39-oto-2014-a-5/294`
+  - `https://beron.mon.bg/beron`
+
 Load the maintained reference material from `skills/bg-text/references/` as needed:
 
 - `typography.md` for typography and spacing
@@ -34,6 +47,19 @@ Load the maintained reference material from `skills/bg-text/references/` as need
 - `scoring.md` for quality scoring
 - `sources.md` for source hierarchy and attribution
 - `addenda.md` for accumulated project-specific notes
+
+High-confidence externally verified areas in this repo:
+
+- Bulgarian quotation marks and nested quotation marks
+- Decimal comma and core punctuation spacing
+- Ordinal numerals written with a period or with hyphenated endings
+- The literary use of `ѝ`
+
+Areas that should be framed as house style or pragmatic digital practice:
+
+- dash choice in ordinary prose outside strict print typography
+- UI punctuation minimization
+- anti-bureaucratic phrasing and brevity defaults
 
 For repo-scoped auto-discovery, this repository also provides adapter entrypoints in:
 

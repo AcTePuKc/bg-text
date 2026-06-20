@@ -1,7 +1,7 @@
 {
   "name": "bg-text",
   "displayName": "bg-text",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Bulgarian text quality — typography, clear writing, editorial, UX writing, business correspondence, and localization. Auto-activates on Bulgarian text.",
   "author": {
     "name": "Shteryan Nikolaev",
