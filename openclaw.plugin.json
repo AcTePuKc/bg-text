@@ -1,0 +1,15 @@
+{
+  "id": "bg-text",
+  "name": "bg-text",
+  "version": "0.1.0",
+  "description": "Bulgarian text quality plugin — typography, clear writing, editorial standards, UX writing, business correspondence, and localization",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false
+  },
+  "skills": [
+    "bg-text",
+    "bg-check",
+    "bg-score"
+  ]
+}

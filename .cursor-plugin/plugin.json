@@ -1,0 +1,22 @@
+{
+  "name": "bg-text",
+  "displayName": "bg-text",
+  "version": "0.1.0",
+  "description": "Bulgarian text quality — typography, clear writing, editorial, UX writing, business correspondence, and localization. Auto-activates on Bulgarian text.",
+  "author": {
+    "name": "Shteryan Nikolaev",
+    "email": ""
+  },
+  "license": "MIT",
+  "logo": "../logo-round.png",
+  "keywords": [
+    "bulgarian",
+    "typography",
+    "editorial",
+    "clear-writing",
+    "ux-writing",
+    "text-quality",
+    "text-scoring",
+    "localization"
+  ]
+}

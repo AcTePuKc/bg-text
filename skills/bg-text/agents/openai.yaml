@@ -1,0 +1,7 @@
+interface:
+  display_name: "bg-text"
+  short_description: "Качество на български текст - типография, ясно писане, редакция, UX текстове, локализация и бизнес кореспонденция"
+
+policy:
+  allow_implicit_invocation: true
+  

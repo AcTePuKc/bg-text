@@ -1,0 +1,33 @@
+{
+  "name": "bg-text",
+  "version": "0.1.0",
+  "description": "Bulgarian text quality plugin — typography, clear writing, editorial standards, UX writing, business correspondence, and localization",
+  "author": {
+    "name": "Shteryan Nikolaev",
+    "email": "",
+    "url": "https://github.com/AcTePuKc"
+  },
+  "homepage": "https://github.com/AcTePuKc/bg-text",
+  "repository": "https://github.com/AcTePuKc/bg-text",
+  "license": "MIT",
+  "keywords": [
+    "bulgarian",
+    "typography",
+    "editorial",
+    "clear-writing",
+    "ux-writing",
+    "text-quality",
+    "text-scoring",
+    "localization"
+  ],
+  "logo": "./logo-round.png",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "bg-text",
+    "shortDescription": "Bulgarian text quality — typography, clear writing, editorial, UX writing, and localization",
+    "developerName": "Shteryan Nikolaev",
+    "category": "Productivity",
+    "websiteURL": "https://github.com/AcTePuKc/bg-text",
+    "privacyPolicyURL": "https://github.com/AcTePuKc/bg-text/blob/main/PRIVACY_POLICY.md"
+  }
+}
