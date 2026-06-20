@@ -20,6 +20,10 @@ Maintained by `Shteryan Nikolaev` (`AcTePuKc`).
 ## What it contains
 
 - `skills/bg-text/SKILL.md` — main skill entry
+- `.agents/skills/bg-text/SKILL.md` — repo-scoped adapter for tools that scan `.agents/skills`
+- `.claude/skills/bg-text/SKILL.md` — repo-scoped Claude adapter
+- `.cursor/skills/bg-text/SKILL.md` — repo-scoped Cursor adapter
+- `.gemini/skills/bg-text/SKILL.md` — repo-scoped Gemini adapter
 - `skills/bg-text/references/` — domain references
 - `skills/bg-text/agents/` — agent-specific guidance
 - `.agents/` — reserved root-level space for local or future agent integration files
@@ -77,6 +81,10 @@ Current release stance:
 - documentation-aligned
 - structurally maintained
 - not all surfaces manually verified end-to-end on real installs
+
+Canonical source of truth:
+- `skills/bg-text/SKILL.md` is the maintained canonical skill body
+- repo-level adapter skills exist only to make auto-discovery more reliable across agents with different expected skill locations
 
 Notes:
 - Gemini support here refers to Gemini CLI extension packaging, not Gemini Apps Gems or a Gemini API-hosted custom skill format

@@ -4,17 +4,17 @@ description: >
   Use when writing, editing, or reviewing Bulgarian-language text, or when user
   mentions bg-text. Covers typography, clear writing, editorial review, UX writing,
   business correspondence, localization, and Bulgarian-specific language issues.
-  Use this root skill when the repository is loaded directly as a Codex skill.
 ---
 
-# bg-text
+# bg-text — repo adapter skill
 
-Bulgarian text quality skill for direct repository use.
+This repository keeps the canonical maintained skill at `skills/bg-text/SKILL.md`.
 
-This root file is a compatibility shim for environments that open a repository-level
-`SKILL.md` directly.
+Use this repo-scoped adapter when the agent discovers skills from standard project
+folders such as `.agents/skills/`, `.claude/skills/`, `.cursor/skills/`, or
+`.gemini/skills/`.
 
-Apply these defaults unless the user explicitly requests a different style:
+Apply these defaults unless the user explicitly asks for a different style:
 
 - Use Bulgarian quotation marks: `„…“` and nested `‚…‘`.
 - Prefer natural contemporary Bulgarian over Russian-influenced wording or word order.
@@ -22,7 +22,7 @@ Apply these defaults unless the user explicitly requests a different style:
 - Keep UI and product text short, specific, and easy to scan.
 - Use Bulgarian numeric and punctuation conventions such as decimal comma, spaced thousands, and `№`.
 
-Load the maintained reference material from `skills/bg-text/references/` as needed:
+Load the maintained reference material from `../../../skills/bg-text/references/` as needed:
 
 - `typography.md` for typography and spacing
 - `clear-writing.md` for style and weak phrasing
@@ -35,11 +35,5 @@ Load the maintained reference material from `skills/bg-text/references/` as need
 - `sources.md` for source hierarchy and attribution
 - `addenda.md` for accumulated project-specific notes
 
-For repo-scoped auto-discovery, this repository also provides adapter entrypoints in:
-
-- `.agents/skills/bg-text/SKILL.md`
-- `.claude/skills/bg-text/SKILL.md`
-- `.cursor/skills/bg-text/SKILL.md`
-- `.gemini/skills/bg-text/SKILL.md`
-
-When both this file and `skills/bg-text/SKILL.md` are available, prefer the nested file as the fuller maintained version.
+If both this adapter and `skills/bg-text/SKILL.md` are visible, prefer the nested
+canonical file as the fuller maintained version.

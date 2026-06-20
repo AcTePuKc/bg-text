@@ -2,7 +2,7 @@
   "name": "bg-text",
   "metadata": {
     "description": "Bulgarian text quality — typography, clear writing, editorial, UX writing, business correspondence, and localization",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "owner": {
     "name": "Shteryan Nikolaev",
@@ -13,7 +13,7 @@
     {
       "name": "bg-text",
       "source": "./",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "description": "Bulgarian text quality — typography, clear writing, editorial, UX writing, business correspondence, and localization",
       "category": "productivity",
       "homepage": "https://github.com/AcTePuKc/bg-text",

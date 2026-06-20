@@ -1,6 +1,8 @@
 content/originals/
 .DS_Store
-.claude/
+.claude/*
+!.claude/skills/
+!.claude/skills/**
 .venv/
 *.pen
 dist/
