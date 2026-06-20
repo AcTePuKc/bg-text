@@ -22,6 +22,7 @@ Maintained by `Shteryan Nikolaev` (`AcTePuKc`).
 - `skills/bg-text/SKILL.md` — main skill entry
 - `skills/bg-text/references/` — domain references
 - `skills/bg-text/agents/` — agent-specific guidance
+- `.agents/` — reserved root-level space for local or future agent integration files
 
 ## Reliability model
 
@@ -57,3 +58,7 @@ For normative Bulgarian language questions, the project relies primarily on:
 See [skills/bg-text/references/sources.md](skills/bg-text/references/sources.md).
 
 This repository is focused on Bulgarian.
+
+## Releases
+
+The repository is primarily designed to be used directly from GitHub, but tagged releases can also provide a downloadable archive.

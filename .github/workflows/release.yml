@@ -1,0 +1,42 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Build release archive
+        shell: bash
+        run: |
+          mkdir -p dist
+          zip -r "dist/bg-text-${GITHUB_REF_NAME:-manual}.zip" \
+            . \
+            -x ".git/*" \
+            -x ".github/workflows/*" \
+            -x "dist/*"
+
+      - name: Create GitHub release
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*.zip
+          generate_release_notes: true
+
+      - name: Upload archive artifact
+        if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: bg-text-release-archive
+          path: dist/*.zip

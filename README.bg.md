@@ -21,7 +21,8 @@
 
 - `skills/bg-text/SKILL.md` — основен skill файл
 - `skills/bg-text/references/` — справочни файлове по домейни
-- `skills/bg-text/agents/` — agent-specific насоки
+- `skills/bg-text/agents/` — насоки за конкретни агенти
+- `.agents/` — запазено място на ниво repo за локални или бъдещи интеграционни файлове
 
 ## Модел за надеждност
 
@@ -57,3 +58,7 @@
 Вижте [skills/bg-text/references/sources.md](skills/bg-text/references/sources.md).
 
 Репото е фокусирано върху българския език.
+
+## Рилийзи
+
+Хранилището е замислено основно за директно ползване от GitHub, но при tag-нати версии може да публикува и архив за сваляне.
