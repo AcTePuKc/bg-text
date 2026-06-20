@@ -1,6 +1,7 @@
 interface:
   display_name: "bg-text"
-  short_description: "Качество на български текст - типография, ясно писане, редакция, UX текстове, локализация и бизнес кореспонденция"
+  short_description: "Bulgarian text quality for editing, UX copy, and localization"
+  default_prompt: "Use $bg-text to edit or write polished Bulgarian text."
 
 policy:
   allow_implicit_invocation: true

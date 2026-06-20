@@ -62,3 +62,30 @@ This repository is focused on Bulgarian.
 ## Releases
 
 The repository is primarily designed to be used directly from GitHub, but tagged releases can also provide a downloadable archive.
+
+## Compatibility
+
+This repository currently maintains public packaging or integration surfaces for:
+- Codex — maintained against current OpenAI skill and plugin docs
+- Claude Code — maintained against current Claude skills and plugin docs
+- Cursor — maintained against current Cursor skills and plugin docs
+- Gemini CLI — maintained against current Gemini CLI extension and agent skills docs
+- OpenClaw — maintained against current OpenClaw native plugin and skills docs
+- Notion — maintained as a manual Notion AI skill and Notion MCP usage path
+
+Current release stance:
+- documentation-aligned
+- structurally maintained
+- not all surfaces manually verified end-to-end on real installs
+
+Notes:
+- Gemini support here refers to Gemini CLI extension packaging, not Gemini Apps Gems or a Gemini API-hosted custom skill format
+- some surfaces are docs-aligned but still awaiting manual end-to-end verification
+
+If you try `bg-text` in one of these environments and it works or fails in a meaningful way, please report it in a GitHub issue. Short reports are enough:
+- platform and version
+- install method
+- what worked
+- what failed or looked inconsistent
+
+This helps separate documentation compliance from real-world compatibility.

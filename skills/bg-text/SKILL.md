@@ -5,11 +5,6 @@ description: >
   mentions bg-text. Covers typography, clear writing, editorial review, UX writing,
   business correspondence, localization, and Bulgarian-specific language issues.
   Auto-activates on Bulgarian text output.
-metadata:
-  openclaw:
-    always: true
-    emoji: "\U0001F4DD"
-    homepage: "https://github.com/AcTePuKc/bg-text"
 ---
 
 # bg-text — Качество на българския текст

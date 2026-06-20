@@ -8,8 +8,6 @@
     "additionalProperties": false
   },
   "skills": [
-    "bg-text",
-    "bg-check",
-    "bg-score"
+    "./skills"
   ]
 }

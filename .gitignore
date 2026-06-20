@@ -1,5 +1,6 @@
 content/originals/
 .DS_Store
 .claude/
+.venv/
 *.pen
 dist/
