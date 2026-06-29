@@ -48,6 +48,8 @@
 - `sources.md`
 - `addenda.md`
 
+За българска game localization с ключове, placeholder-и, тагове и engine-специфична структура използвайте companion skill-а [`bg-game-translation-qa`](https://github.com/AcTePuKc/bg-game-translation-qa).
+
 ## Източници
 
 При въпроси за книжовна норма проектът се опира главно на:

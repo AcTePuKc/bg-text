@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.3 - 2026-06-29
+
+- Added guidance against automatic drift to formal `Вие` when English `you` is used in informal, game, community, tutorial, or UI contexts.
+- Expanded `ux-writing.md`, `anti-patterns.md`, and `addenda.md` with address/register rules and examples.
+- Added a companion link to `bg-game-translation-qa` for Bulgarian game localization files with keys, placeholders, tags, and engine-specific structure.
+- Synced repo adapter skill files for `.agents`, Claude, Cursor, and Gemini entrypoints.
+
 ## 0.1.2 - 2026-06-20
 
 - Reworked the repository identity from inherited non-Bulgarian scaffolding to standalone `bg-text`.

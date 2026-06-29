@@ -20,6 +20,7 @@ Apply these defaults unless the user explicitly requests a different style:
 - Prefer natural contemporary Bulgarian over Russian-influenced wording or word order.
 - Prefer clear, direct phrasing over bureaucratic or literal translated wording.
 - Keep UI and product text short, specific, and easy to scan.
+- Match the intended address/register. Do not default to formal `Вие` when informal `ти` or a neutral construction fits the audience, product, game, community, or existing style better.
 - Use Bulgarian numeric and punctuation conventions such as decimal comma, spaced thousands, and `№`.
 
 Source discipline for this skill:

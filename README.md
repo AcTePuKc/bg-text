@@ -52,6 +52,8 @@ This matters because not every useful writing rule is a normative language rule.
 - `sources.md`
 - `addenda.md`
 
+For Bulgarian game localization files with keys, placeholders, tags, and engine-specific structure, use the companion skill [`bg-game-translation-qa`](https://github.com/AcTePuKc/bg-game-translation-qa).
+
 ## Sources
 
 For normative Bulgarian language questions, the project relies primarily on:
