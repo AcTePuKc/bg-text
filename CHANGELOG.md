@@ -9,10 +9,10 @@
 
 ## 0.1.3 - 2026-06-29
 
-- Added guidance against automatic drift to formal `Вие` when English `you` is used in informal, game, community, tutorial, or UI contexts.
-- Expanded `ux-writing.md`, `anti-patterns.md`, and `addenda.md` with address/register rules and examples.
-- Added a companion link to `bg-game-translation-qa` for Bulgarian game localization files with keys, placeholders, tags, and engine-specific structure.
-- Synced repo adapter skill files for `.agents`, Claude, Cursor, and Gemini entrypoints.
+- Добавени са правила срещу автоматичното преминаване към формално „Вие“, когато английското `you` е в неформален интерфейс, игра, урок, общностен продукт или вече установен неформален стил.
+- Разширени са `ux-writing.md`, `anti-patterns.md` и `addenda.md` с правила и примери за обръщение и регистър.
+- Добавена е връзка към придружаващото умение `bg-game-translation-qa` за файлове за игрова локализация с ключове, placeholders, тагове и специфична за енджина структура.
+- Синхронизирани са adapter файловете за `.agents`, Claude, Cursor и Gemini.
 
 ## 0.1.2 - 2026-06-20
 
