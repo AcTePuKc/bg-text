@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.1.4 - 2026-08-12
+
+- Добавени са правила за превод на технически термини според функцията и аудиторията им, вместо според буквалната английска форма.
+- Уточнени са безопасни контекстни варианти за `hook`, `compatibility hook`, `fix`, `module` и `handler`.
+- Добавена е проверка за многозначни термини като `support`, `state`, `patch`, `build`, `release` и `slot`, с препоръка за глосар при повтаряща се употреба.
+- Синхронизирани са версиите в manifest файловете за Codex, Claude, Cursor, Gemini и OpenClaw.
+
 ## 0.1.3 - 2026-06-29
 
 - Added guidance against automatic drift to formal `Вие` when English `you` is used in informal, game, community, tutorial, or UI contexts.

@@ -1,7 +1,7 @@
 {
   "id": "bg-text",
   "name": "bg-text",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "Bulgarian text quality plugin — typography, clear writing, editorial standards, UX writing, business correspondence, and localization",
   "configSchema": {
     "type": "object",
